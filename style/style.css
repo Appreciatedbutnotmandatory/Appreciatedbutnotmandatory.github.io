@@ -18,6 +18,7 @@ body{
     padding:0;
 }
 .navbar-container{
+    position:fixed;
     margin-bottom:0;
     height:100%;
     width:10%;
@@ -38,14 +39,31 @@ a{
 }
 .navbar-link{
     width:100%;
-    height:15%;
+    height:10%;
     justify-content:start;
 }
 .body-container{
     height:100%;
     width:90%;
     display:flex;
+    padding-top:7%;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.body-content-container{
+    height:20%;
+    width:90%;
+    display:flex;
+    flex-direction: row;
     justify-content: center;
+    align-items:center;
+}
+.body-content{
+    height:100%;
+    width:90%;
+    display:flex;
+    flex-direction: row;
+    justify-content: left;
     align-items: center;
 }
