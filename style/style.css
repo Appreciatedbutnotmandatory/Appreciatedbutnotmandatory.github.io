@@ -63,6 +63,10 @@ body{
     text-decoration: none;
     color:white;
 }
+.navbar-element:hover{
+    background-color:#f2737a;
+    color:white;
+}
 
 .body-container{
     padding-top:4%;
