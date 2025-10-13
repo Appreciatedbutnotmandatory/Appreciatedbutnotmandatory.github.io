@@ -70,7 +70,7 @@ body{
 
 .body-container{
     padding-top:4%;
-    height:fit-content;
+    min-height:fit-content;
     width:75%;
     background-color:#fee2c7;
     display:flex;
@@ -81,6 +81,7 @@ body{
     flex-grow:auto;
     border-right:solid #df3148 thick;
     border-left:solid #df3148 thick;
+    margin-bottom:0;
 }
 .text-area-container-left{
     width:100%;
