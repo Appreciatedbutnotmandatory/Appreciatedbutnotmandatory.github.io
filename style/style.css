@@ -15,30 +15,41 @@ body{
     display:flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     padding:0;
     flex-grow:auto;
+    background-color:#f7ab9a;
 }
 .header-container{
     height:21%;
-    width:100%;
-    background-color:pink;
+    width:75%;
+    background-color:#f2737a;
     display:flex;
     justify-content: center;
     align-items: center;
-    color:indigo;
-    font-size: xx-large;
     position:static;
     flex-shrink: 0;
+    border-right:solid #df3148 thick;
+    border-left:solid #df3148 thick;
+}
+.header-text{
+    background-color:#df3046;
+    color:white;
+    font-size: xx-large;
+    padding:0.5%
+
 }
 .navbar-container{
     height:7%;
     position:static;
-    width:100%;
-    background-color:blueviolet;
+    width:75%;
+    background-color:#df3046;
     display:flex;
     flex-direction:row;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-shrink:0;
+    border-right:solid #df3148 thick;
+    border-left:solid #df3148 thick;
 }
 .navbar-element{
     width:21%;
@@ -47,21 +58,22 @@ body{
     align-items: center;
     justify-content: center;
     text-decoration: none;
+    color:white;
 }
-.navbar-element:hover{
-    background-color:aquamarine;
-}
+
 .body-container{
     padding-top:7%;
     height:fit-content;
-    width:100%;
-    background-color:burlywood;
+    width:75%;
+    background-color:#fee2c7;
     display:flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     padding-bottom:7%;
     flex-grow:auto;
+    border-right:solid #df3148 thick;
+    border-left:solid #df3148 thick;
 }
 .text-area-container-left{
     width:100%;
@@ -82,18 +94,30 @@ body{
     width:21%;
     display:flex;
     justify-content: center;
-    background-color:aquamarine;
-    color:indigo;
+    background-color:#fac3ae;
+    color:#6e0d17;
     text-overflow: auto;
-    margin-right:25%;
+    margin-right:21%;
+    border-radius:30px;
+    padding:0.5%;
+    border:solid;
+    border-color:#a9bc68;
+    border-width: thick;
 }
+
 .text-container-left{
     height:100%;
     width:21%;
     display:flex;
+    align-items: center;
     justify-content: center;
-    background-color:aquamarine;
-    color:indigo;
+    background-color:#fac3ae;
+    color:#6e0d17;
     text-overflow: auto;
-    margin-left:25%;
+    margin-left:21%;
+    border-radius:30px;
+    padding:0.5%;
+    border:solid;
+    border-color:#a9bc68;
+    border-width: thick;
 }
