@@ -21,8 +21,10 @@ body{
     background-color:#f7ab9a;
 }
 .header-container{
-    height:21%;
-    width:75%;
+    padding:2%;
+    max-height:21%;
+    max-height: fit-content;
+    width:71%;
     background-color:#f2737a;
     display:flex;
     justify-content: center;
@@ -37,9 +39,13 @@ body{
     color:white;
     font-size: xx-large;
     padding:2%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
     padding-left:5%;
     padding-right:5%;
     border-radius:42px;
+    flex-grow:0;
 
 }
 .navbar-container{
@@ -141,3 +147,9 @@ body{
     margin-left:5%;
     margin-bottom:5%;
 }
+img{
+    height:50%;
+    width: 50%;
+    object-fit:contain;
+}
+
