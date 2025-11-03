@@ -35,15 +35,9 @@ body{
     border-left:solid #df3148 thick;
 }
 .header-text{
-    color:white;
-    font-size: xx-large;
-    padding:2%;
     display:flex;
     align-items: center;
     justify-content: center;
-    padding-left:5%;
-    padding-right:5%;
-    border-radius:42px;
     flex-grow:0;
 
 }
