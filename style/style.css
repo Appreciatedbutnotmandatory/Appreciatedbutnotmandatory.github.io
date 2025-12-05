@@ -2,6 +2,7 @@ html{
     margin:0px;
     width:100%;
     height:100%;
+
 }
 body{
     margin:0px;
@@ -81,6 +82,27 @@ body{
     border-right:solid #df3148 thick;
     border-left:solid #df3148 thick;
     margin-bottom:0;
+}
+.body-text-container{
+    width:75%;
+    background-color:#fee2c7;
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    margin-bottom:0;
+    hyphens: auto;
+}
+.dialogue{
+    width:95%;
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    color:#df3046;
+    
+}
+.dialogue-text{
+    margin:0;
+    margin-left:10%
 }
 .text-area-container-left{
     width:100%;
