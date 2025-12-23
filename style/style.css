@@ -68,6 +68,21 @@ body{
     color:white;
 }
 
+.content-container{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    margin:0;
+    flex-shrink: 0;
+    padding:0;
+    justify-content:center;
+}
+.images-area{
+    margin:0;
+    display:flex;
+    width:12%;
+    flex-direction: column;
+}
 .body-container{
     padding-top:4%;
     min-height:fit-content;
