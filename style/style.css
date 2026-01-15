@@ -83,6 +83,24 @@ body{
     width:12%;
     flex-direction: column;
 }
+.section-title-container{
+    width:100%;
+    min-height: 7%;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.section-title-text{
+    width:34%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2737a;
+    color:#710f18;
+    font-size: x-large;
+    border-radius:17px;
+}
 .body-container{
     padding-top:4%;
     min-height:fit-content;
